@@ -5,5 +5,9 @@ buttons.forEach((button)=>{
     button.addEventListener("click",(e)=>{
         let value = e.target.dataset.num;
         screen.value += value;
+        buttons.forEach((button)=>{
+    button.addEventListener("clear",(e)=>{
+        let value = e.target.dataset.num;
+        screen.value += value;
     })
 })
