@@ -8,3 +8,4 @@ buttons.forEach((button)=>{
         
     })
 })
+ <input id="btnClear" type="button" value="Clear" onclick="Clear()"/>
